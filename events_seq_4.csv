@@ -1,0 +1,16 @@
+#,Type,Values,Description
+1,E1,36.173,'angle' sensing event
+2,E1,1243590.094,'magnitude' sensing event
+3,E1,[ Phasor #3: PV 1243590.094 36.173° alt 1003873.85 + j(733998.3748) V ],network packet message event
+4,E2,"{""data"":{""measurements"":[{""name"":""gridappsd-sensor-simulator"",""points"":[{""row"":{""entry"":[{""key"":""hasSimulationMessageType"",""value"":""OUTPUT""},{""key"":""angle"",""value"":""36.173""},{""key"":""magnitude"",""value"":""1243590.094""},{""key"":""simulation_id"",""value"":""699709772""}]}}]},""responseComplete"":true}}",response object
+5,E4,TRUE,conditional check
+6,E6,1003873.85,equipment_p_meas
+7,E7,733998.3748,equipment_q_meas
+8,E9,T,intermediate program variable #1
+9,E8,T,intermediate program variable #2
+10,E10,120245,forward_value
+11,E12,0,reverse_value
+12,E13,"{""object"":""_E4031419-C07D-45B4-9A22-CB5723C9D040"",""attribute"":""PowerElectronicsConnection.p"",""value"":120245}",forward_differences
+13,E14,"{""object"":""_E4031419-C07D-45B4-9A22-CB5723C9D040"",""attribute"":""PowerElectronicsConnection.p"",""value"":0.0}",reverse_differences
+14,E13,"{""simulation_id"":""699709772"",""message"":{""timestamp"":1723850247,""difference_mrid"":""84415950-d9cb-4a84-a7f8-f8c8887f2db9"",""reverse_differences"":[{""object"":""_E4031419-C07D-45B4-9A22-CB5723C9D040"",""attribute"":""PowerElectronicsConnection.p"",""value"":0.0}],""forward_differences"":[{""object"":""_E4031419-C07D-45B4-9A22-CB5723C9D040"",""attribute"":""PowerElectronicsConnection.p"",""value"":120245}]} }",message_input
+15,E15,"{""command"":""update"",""input"":{""simulation_id"":""699709772"",""message"":{""timestamp"":1723850247,""difference_mrid"":""84415950-d9cb-4a84-a7f8-f8c8887f2db9"",""reverse_differences"":[{""object"":""_E4031419-C07D-45B4-9A22-CB5723C9D040"",""attribute"":""PowerElectronicsConnection.p"",""value"":0.0}],""forward_differences"":[{""object"":""_E4031419-C07D-45B4-9A22-CB5723C9D040"",""attribute"":""PowerElectronicsConnection.p"",""value"":120245}]} }}",message
